@@ -10,18 +10,20 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    
+    
 }
-
-.cadastro {
-    margin-top: -35px;
-    background: hsl(191, 88%, 26%);
+.cadastro{
+    background:#08687E;
     max-width: 600px;
-    width: 579px;
     height: 100%;
-    padding: 30px;
-    box-shadow: 10px 9px 10px rgba(0, 0, 0, 0.616);
-    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 20px;
+    margin-bottom: 20px;
 }
 .itens-form .input-2{
     align-items: center;
@@ -32,15 +34,13 @@ body{
 .cadastro h1{
     justify-content: center;
     display: flex;
-    color: rgb(255, 255, 255);
-    padding: 10px;
-    padding-bottom: 20px;
+    color: white;
+    padding: 0px;
+    
 }
 .conteudo-1{
-    justify-content: center;
-    align-items: center;
-    display: flex;
-    margin-top: 60px;
+    margin-top: 20px;
+
 }
 .input-2 label{
     position: absolute;
@@ -63,9 +63,8 @@ body{
 }
 .input-2{
     position: relative;
-    margin: 12px;
+    margin: 20px 0;
 }
-
 .input-2 .inputS:focus ~ label,
 .input-2 .inputS:valid ~ label{
     transform: translateY(-24px);
@@ -78,18 +77,18 @@ body{
     text-align: center;
     
 }
-form input[type=submit] {
-    padding: 8px 41px;
+form input[type=submit]{
+    padding: 10px 40px;
     border: 0;
-    border-radius: 10px;
-    margin-left: 0;
+    border-radius: 3px;
+    margin-right: 10px;
     cursor: pointer;
     font-weight: bold;
-    font-size: 1.2em;
-    background-color: #0C9ABE;
-    color: white;
-    width: 45%;
-}  
+    font-size: 1.6em;
+
+
+}    
+
 .op{
     color: rgba(0, 0, 0, 0.37);
 }
@@ -104,9 +103,10 @@ form input[type=submit] {
     padding: 15px;
     color: black;
     font-family: Poppins,Arial, Helvetica, sans-serif;
-}
 
+}
 .input-4{
+    width: 250px;
     height: 30px;
     border: 0px;
     border-bottom: 1px solid #ccc;
@@ -114,53 +114,4 @@ form input[type=submit] {
     background-color: rgba(0, 0, 0, 0);
     color: white;
     font-size: 1.2em;
-    width: 230px;
-}
-.btn-2 {
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 1.2em;
-    background-color: #FFAB35;
-    width: 45%;
-    padding: 8px;
-    border: none;
-    border-radius: 10px;
-}
-.btn-2{
-    cursor: pointer;
-    font-weight: bold;
-    font-size: 1.2em;
-    background-color: #F21A24;
-    width:30%;
-    padding: 8px;
-    border: none;
-    border-radius: 3px;
-}
-.btn-2 a{
-    text-decoration: none;
-    color: white;
-}
-.sessoes {
-    display: flex;
-    width: 100%;
-    align-content: center;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    justify-content: space-around;
-}
-#data_nascimento{
-    width: 100%;
-}
-
-.log {
-    padding-left: 34px;
-    width: 89%;
-  }
-.log label{
-    left: 10px;
-    bottom: 10px;
-    color:rgba(255, 255, 255, 0.37);
-    transition: 0.4s;
-    cursor: text;
-    margin-left: 5px ;
 }
